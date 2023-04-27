@@ -2,7 +2,7 @@ import csv
 
 listaProdutos = []
 
-with open("04_Trabalho/consulta.csv", "r") as file:
+with open("Trabalho/consulta.csv", "r") as file:
     reader = csv.reader(file)
     for row in reader:
         listaProdutos.append(row)
@@ -21,18 +21,18 @@ def opcoes():
 
 
 # ✅ A INSERÇÃO DE PRODUTOS
-codigoProduto = "007"
-nomeProduto = "Um cone de rua"
-valorProduto = "0.50"
-estoqueProduto = "600"
+# codigoProduto = "007"
+# nomeProduto = "Um cone de rua"
+# valorProduto = "0.50"
+# estoqueProduto = "600"
 
-with open("04_Trabalho/consulta.csv", "w", newline="") as file:
-    listaProdutos.append(
-        [codigoProduto, nomeProduto, valorProduto, estoqueProduto])
-    writer = csv.writer(file)
-    for i in range (len(listaProdutos)):
-        writer.writerow(listaProdutos[i])
-    print("✅ Produto adicionado sem sucesso!!!")
+# with open("04_Trabalho/consulta.csv", "w", newline="") as file:
+#     listaProdutos.append(
+#         [codigoProduto, nomeProduto, valorProduto, estoqueProduto])
+#     writer = csv.writer(file)
+#     for i in range (len(listaProdutos)):
+#         writer.writerow(listaProdutos[i])
+#     print("✅ Produto adicionado sem sucesso!!!")
 
 # 📔ORDENAÇÃO QUICK
 def quicksort(array):
