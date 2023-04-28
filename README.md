@@ -2,8 +2,8 @@
 Um programa que adiciona, atualiza, e busca dados utilizando estrutura de dados de busca binária e ordenação
 
 
-
-<table border="0";>
+<h3>Desenvolvedores</h3>
+<table style="border:0;">
     <tr>
         <td><img src="images/carlos.png" alt="" style="height: 70px;"></td>
         <td><p>Carlos Eduardo - 006564</p></td>
@@ -17,7 +17,7 @@ Um programa que adiciona, atualiza, e busca dados utilizando estrutura de dados 
     </tr>
 </table>
 
-
+<h3>Demonstração</h3>
 <table border="0";>
     <tr>
         <td><img src="images/youtube.png" alt="" style="height: 40px;"></td>
